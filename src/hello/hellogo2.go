@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	
-	var a string = "nanoxiong"
+
+	var a string = "test"
 
 	b := "xiong"
 
@@ -12,6 +12,6 @@ func main() {
 
 	fmt.Println("my name is : " + a)
 	fmt.Println("name : " + b)
-	fmt.Println(c, d);
+	fmt.Println(c, d)
 
 }

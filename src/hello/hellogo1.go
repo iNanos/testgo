@@ -12,17 +12,16 @@ func main() {
 
 	d := 2
 
-	str1 := "nanoxi\r\tong"
+	str1 := "te\r\tong"
 	str2 := "nano \t"
 	str3 := "is \n"
-	str4 := "\rxiongmengfei"
+	str4 := "\rtest"
 
 	fmt.Println("\nbefore replace" + str1)
 	strings.Replace(str1, "xi", "", -1)
 	fmt.Println("\nafter replace" + str1)
 
 	fmt.Println(strings.Replace("oink oink oink", "k", "ky", 3))
-
 
 	fmt.Println(b)
 	fmt.Println(a)
